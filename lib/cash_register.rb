@@ -27,14 +27,6 @@ class CashRegister
     end
   end
 
-  def items=(list)
-    @items = list
-  end
-
-  def items
-    @items
-  end
-
   def last_transaction_amount=(amount)
     @last_transaction_amount = amount
   end
